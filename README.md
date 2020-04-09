@@ -1,10 +1,11 @@
-#Programmers Practice
+Programmers Practice
+====================
 
-###gaol 
+### goal 
  - 1day 1 solved
  - easy to hard
 
-###Process
+### Process
  solved -> review with _"BestCode"_ -> study
 
 ### reference 
