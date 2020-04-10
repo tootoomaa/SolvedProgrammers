@@ -1,26 +1,26 @@
 문제 설명
 --------
 
-\+문제 요약
+**\+문제 요약**
 > 단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요. 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
 
-\+재한사항
+**\+재한사항**
 > 입력값 s는 길이가 1 이상, 100이하인 스트링입니다.
  
-\+입출력 예
+**\+입출력 예**
 s | return 
 ---|---
 abcde | c
 qwer | we
 
-\+문제 URL
+**\+문제 URL**
 >https://programmers.co.kr/learn/courses/30/lessons/12903/solution_groups?language=swift
 
 
 문제 풀이
 ---------
 
-*** *My Solution**
+**\+ My Solution**
 ```swift
 func solution(_ s:String) -> String {
 
@@ -39,7 +39,7 @@ func solution(_ s:String) -> String {
 
 ```
 
-** *Best Solution**
+**\+ Best Solution**
 ```swift
 func solution(_ s:String) -> String {
     return String(s[String.Index(encodedOffset: (s.count-1)/2)...String.Index(encodedOffset: s.count/2)])

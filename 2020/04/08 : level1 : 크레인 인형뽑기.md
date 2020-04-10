@@ -1,10 +1,10 @@
 문제 설명
 --------
 
-\+문제 요약
+**\+문제 요약**
 > N x N 크기의 정사각 격자이며 위쪽에는 크레인이 있고 오른쪽에는 바구니가 있습니다. 게임 화면의 격자의 상태가 담긴 2차원 배열 board와 인형을 집기 위해 크레인을 작동시킨 위치가 담긴 배열 moves가 매개변수로 주어질 때, 크레인을 모두 작동시킨 후 터트려져 사라진 인형의 개수를 return 하도록 solution 함수를 완성해주세요.
 
-\+재한사항
+**\+재한사항**
 >board 배열은 2차원 배열로 크기는 5 x 5 이상 30 x 30 이하입니다.
 >board의 각 칸에는 0 이상 100 이하인 정수가 담겨있습니다.
 >0은 빈 칸을 나타냅니다.
@@ -12,12 +12,12 @@
 >moves 배열의 크기는 1 이상 1,000 이하입니다.
 >moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크기 이하인 자연수입니다.
  
-\+입출력 예
+**\+입출력 예**
  board | moves | result 
 ---|---|---
 [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]] | [1,5,3,5,1,2,1,4] | 4
 
-\+문제 URL
+**\+문제 URL**
 >https://programmers.co.kr/learn/courses/30/lessons/64061
 
 
@@ -25,7 +25,7 @@
 문제 풀이
 ---------
 
-*** *My Solution**
+**\+ My Solution**
 ```swift
 import Foundation
 
@@ -63,7 +63,7 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
 
 ```
 
-** *Best Solution**
+**\+ Best Solution**
 ```swift
 import Foundation
 
@@ -90,18 +90,45 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
             }
         }
     }
-
     return count
 }
 ```
 
 Review
 -----------------
-**\+ New Know**> 1. 배열에서  popLast()과 last의 차이점
+**\+ New Know**
+> 1. 배열에서  popLast()과 last의 차이점
 >   - popLast() : 추출 및 배열에서 값 제거
 >   - last : 배열의 마지막 값 선택 (배열에는 값 유지)
+> 2. forEach 문
+>   - 해당 배열에서 순서대로 값을 추출하고, $0에 대입
+>   - 아래 두 함수의 출력 값은 같다.
+```swift
+var array=[1,2,3,4,5]
+for i in array {
+    print(i)
+}
+
+array.forEach {
+    print($0)
+//    print($1)
+}
+```
+> 3. reversed() 함수
+>   - for문을 역순으로 실행하게 해주는 함수
+```swift
+var array=[1,2,3,4,5]
+for i in array.reverse() {
+    print(i)
+}
+// 5
+// 4
+// 3
+// 2
+// 1
+```
 
 **\+ Remember or TO-BE**
->string 값은 배열처럼 \[] 을 사용하여 character값 추출 불가 아래 처럼 변환 하여 사용
-> * 배열 -> String 변환 방법 : joined()
-> * string -> 배열 변환 방법 : Array(s)
+> 1.  고차 함수 공부하기 [참조](https://jinshine.github.io/2018/12/13/Swift/21.고차함수(1)%20-%20forEach,%20filter,%20reduce/)
+> 2. 클로저 공부하기 [참조](https://kimlh2.tistory.com/entry/Swift-for-in-foreach-의-차이점)
+
