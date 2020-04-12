@@ -28,7 +28,8 @@ n | lost | reserve | return
 문제 풀이
 ---------
 
-* \+My Solution**
+**\+My Solution**
+
 ```swift
 func solution(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
     var attendStudent = n - lost.count
