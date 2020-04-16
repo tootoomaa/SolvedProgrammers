@@ -18,7 +18,7 @@ arr | result
 
 **+문제 URL**
 
->https://programmers.co.kr/learn/courses/30/lessons/12931
+>https://programmers.co.kr/learn/courses/30/lessons/12935
 
 
 

@@ -32,8 +32,6 @@ URL : https://programmers.co.kr
   - [14/level1/이상한문자만들기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/14:level1:이상한문자만들기.md)
   - [15/level1/정수제곱근판별](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/15:level1:정수제곱근판별.md)
   - [15/level1/제일작은수제거하기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/15:level1:제일작은수제거하기.md)
-
+- [16/level1/최대공약수와최소공배수](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/16:level1:최대공약수와최소공배수.md)
   
-
   
-
