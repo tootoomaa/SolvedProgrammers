@@ -126,40 +126,37 @@ Review
 -----------------
 **\+ New Know**
 
-> 1. 비트 연산
+> 1. " | " , UInt16 두값을 받아 각 값의 OR 비트 연산 수행
 >
->    1. " | " , UInt16 두값을 받아 각 값의 OR 비트 연산 수행
 >
->    - 	```swift
->      static func | (lhs: UInt16, rhs: UInt16) -> UInt16
+> 	- ```swift
+> 	 static func | (lhs: UInt16, rhs: UInt16) -> UInt16
+> 	   
+> 	 let x: UInt8 = 5          // 0b00000101
+> 	 let y: UInt8 = 14         // 0b00001110
+> 	 let z = x | y             // 0b00001111
+> 	 // z == 15
+> 	 ```
+>   2. "&", UInt16 두값을 받아 각 값의 and 비트 연산 수행
+>
+>  ```swift
+>  static func & (lhs: Int, rhs: Int) -> Int
 >      
->      let x: UInt8 = 5          // 0b00000101
->      let y: UInt8 = 14         // 0b00001110
->      let z = x | y             // 0b00001111
->      // z == 15
->      ```
->      
+>  et x: UInt8 = 5          // 0b00000101
+>  let y: UInt8 = 14         // 0b00001110
+>  let z = x & y             // 0b00000100
+>  // z == 4
+>  ```
 >
->    2. "&", UInt16 두값을 받아 각 값의 and 비트 연산 수행
 >
->    - ```swift
->      static func & (lhs: Int, rhs: Int) -> Int
->      
->      et x: UInt8 = 5          // 0b00000101
->      let y: UInt8 = 14         // 0b00001110
->      let z = x & y             // 0b00000100
->      // z == 4
->      ```
+>   3. ">>", 오른쪽으로 비트 이동
 >
->    3. ">>", 오른쪽으로 비트 이동
->
->    - ```swift
->      var temp = 3
->      temp = temp >> 1
->      ```
->
-> **\+ Remember or TO-BE**
+> ```swift
+>   var temp = 3
+>   temp = temp >> 1
+> ```
 
-> - 비트 연산은 알았지만 &, |  을 통해 직접 숫자끼리, 숫자와 비트를 이용하여 계산하는 방법은 처음 알게됨
-> - 
 
+   **\+ Remember or TO-BE**
+>
+> - 비트 연산은 알았지만 &, |  을 통해 직접 숫자끼리, 숫자와 비트를 이용하여 계산하는 방법은 처음 알게됨 

@@ -33,8 +33,6 @@ URL : https://programmers.co.kr
   - [15/level1/정수제곱근판별](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/15:level1:정수제곱근판별.md)
   - [15/level1/제일작은수제거하기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/15:level1:제일작은수제거하기.md)
 	- [16/level1/최대공약수와최소공배수](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/16:level1:최대공약수와최소공배수.md)
-  
   - [17/level1/비밀지도](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/17:level1:비밀지도.md)
+  - [18/level1/실패율](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/18:level1:실패율.md)
   
-  
-
