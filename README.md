@@ -36,5 +36,8 @@ URL : https://programmers.co.kr
   - [17/level1/비밀지도](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/17:level1:비밀지도.md)
   - [18/level1/실패율](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/18:level1:실패율.md)
   - [19/level1/다트게임-추후Update필요](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/19:level1:다트게임-Update.md) 
-  - [20/level1/시저암호](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/12:level1:시저암호.md)
+  - [20/level1/시저암호](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/20:level1:시저암호.md)
+  - [21/level1/소수찾기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/21:level1:소수찾기.md)
+
+
 
