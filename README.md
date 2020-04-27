@@ -40,7 +40,8 @@ URL : https://programmers.co.kr
   - [21/level1/소수찾기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/21:level1:소수찾기.md)
   - [22/level1/문자열 내 마음대로 정렬하기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/22:level1:문자열내마음대로정렬하기.md)
   - [25/level2/타워](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/25:level2:타워.md)
-  - [26/level2/위장](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/26:level2:위장.md)
+  - [27/level2/기능개발](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/27:level2:기능개발.md)
 
+  
 
-
+  
