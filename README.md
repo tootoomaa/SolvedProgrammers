@@ -41,7 +41,9 @@ URL : https://programmers.co.kr
   - [22/level1/문자열 내 마음대로 정렬하기](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/22:level1:문자열내마음대로정렬하기.md)
   - [25/level2/타워](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/25:level2:타워.md)
   - [27/level2/기능개발](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/27:level2:기능개발.md)
+  - [28/level2/프린터](https://github.com/tootoomaa/SolvedProgrammers/blob/master/2020/04/28:level2:프린터.md)
 
   
 
   
+
