@@ -118,7 +118,7 @@ Review
 **\+ New Know**
 
 > 1. contains 함수
->    - 배열 내에 where 뒤에 정의 된 조건에 만족하는 값이 있을 경우 true, 없을 경우 false
+>    - 배열 내에 where 뒤에 정의 된 조건에 만족하는 값이 있을 경우 true, 없을 경우 false 리턴
 >
 >
 > ```swift
